@@ -10,8 +10,8 @@
  #include "pico/util/datetime.h"
  #include "hardware/gpio.h"
  
- const int TRIG_PIN = 28;
- const int ECHO_PIN = 27;
+ const int TRIG_PIN = 15;
+ const int ECHO_PIN = 14;
  
  volatile int time_init = 0;
  volatile int time_end = 0;
